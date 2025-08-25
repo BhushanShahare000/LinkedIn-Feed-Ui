@@ -8,7 +8,7 @@ const initialPosts = [
     id: 1,
     user: { name: "Jane Doe", avatar: "https://i.pravatar.cc/100?img=7" },
     content: "Learning GraphQL is so much fun 😍",
-    image: "",
+    image: "https://picsum.photos/600/400",
     reactions: { like: 5, support: 0, celebrate: 2, laugh: 3 },
     comments: [{ id: 1, user: "Mark", text: "True that! 🔥" }],
     time: "5h ago",
@@ -20,7 +20,7 @@ const initialPosts = [
       avatar: "https://i.pravatar.cc/100?img=5",
     },
     content: "Excited to share my new React project 🚀",
-    image: "https://placekitten.com/600/300",
+    image: "https://picsum.photos/600/300",
     reactions: { like: 2, support: 1, celebrate: 1, laugh: 0 },
     comments: [
       { id: 1, user: "John", text: "Awesome work! 🔥" },

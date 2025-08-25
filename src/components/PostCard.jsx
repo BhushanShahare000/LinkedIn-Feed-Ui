@@ -41,7 +41,7 @@ export default function PostCard({ post }) {
   );
 
   return (
-    <div className="bg-white rounded-lg shadow-sm border p-4 mb-4 relative">
+    <div className="bg-white rounded-lg shadow-sm p-4 mb-4 relative">
       {/* User Info */}
       <div className="flex items-center gap-2 mb-3">
         <img src={post.user.avatar} alt="" className="w-10 h-10 rounded-full" />
@@ -77,7 +77,7 @@ export default function PostCard({ post }) {
       </div>
 
       {/* Action buttons */}
-      <div className="flex justify-between text-gray-600 text-sm border-t pt-2 mt-2">
+      <div className="flex justify-around text-gray-600 text-sm border-t pt-2 mt-2">
         <div className="relative">
           <button
             onClick={() => setShowReactionPicker(!showReactionPicker)}

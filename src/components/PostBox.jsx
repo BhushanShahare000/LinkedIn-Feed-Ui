@@ -18,7 +18,7 @@ export default function PostBox({ onPost }) {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-sm border p-4 mb-4">
+    <div className="bg-white rounded-lg shadow-sm  p-4 mb-4">
       <div className="flex gap-2">
         <img
           src="https://i.pravatar.cc/100?img=12"
@@ -28,7 +28,7 @@ export default function PostBox({ onPost }) {
         <input
           type="text"
           placeholder="Start a post..."
-          className="flex-1 border rounded-full px-4 py-2 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="flex-1 border rounded-full px-4 py-2  focus:outline-none focus:ring-2 focus:ring-blue-500"
           value={text}
           onChange={(e) => setText(e.target.value)}
         />
