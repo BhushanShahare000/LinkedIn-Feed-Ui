@@ -2,9 +2,9 @@ import React from "react";
 export default function Sidebar() {
   return (
     <aside className="bg-white sticky rounded-lg shadow-sm border p-4">
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center mt-10">
         <img
-          src="https://i.pravatar.cc/100?img=10"
+          src="https://i.pravatar.cc/100?img=12"
           alt="avatar"
           className="w-20 h-20 rounded-full border-2 border-white -mt-10 shadow"
         />

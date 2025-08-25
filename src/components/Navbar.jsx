@@ -15,10 +15,8 @@ export default function Navbar() {
             in
           </h1>
           <div className="relative hidden md:block w-full max-w-xs">
-            {/* Search Icon */}
             <IoSearch className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500 text-lg" />
 
-            {/* Input */}
             <input
               type="text"
               placeholder="Search"
