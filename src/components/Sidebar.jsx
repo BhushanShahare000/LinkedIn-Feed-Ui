@@ -39,19 +39,19 @@ export default function Sidebar() {
         <div className="flex flex-col text-sm gap-3 justify-between text-gray-600 ">
           <span className="font-semibold flex items-center gap-2 ">
             <IoMdSave className=" " />
-            <p className="">Saved Items</p>
+            <p className="hover:underline cursor-pointer">Saved Items</p>
           </span>
           <span className="font-semibold flex items-center gap-2 ">
             <TiGroup className="" />
-            <p className=""> Groups</p>
+            <p className="hover:underline cursor-pointer"> Groups</p>
           </span>
           <span className="font-semibold flex items-center gap-2 ">
             <FaNewspaper className="  " />
-            <p className=""> Articles</p>
+            <p className="hover:underline cursor-pointer"> Articles</p>
           </span>
           <span className="font-semibold flex text-base items-center gap-2 ">
             <MdEventNote className="" />
-            <p className=""> Events</p>
+            <p className="hover:underline cursor-pointer"> Events</p>
           </span>
         </div>
       </aside>

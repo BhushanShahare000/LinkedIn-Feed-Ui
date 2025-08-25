@@ -11,7 +11,7 @@ export default function Navbar() {
     <nav className="bg-white shadow-sm sticky top-0 z-10">
       <div className="max-w-6xl mx-auto flex justify-between items-center px-4 py-2">
         <div className="flex items-center gap-2">
-          <h1 className="text-3xl text-center p-1 rounded w-10 font-bold text-white bg-[#0A66C2]">
+          <h1 className="text-3xl text-center px-2 py-1 rounded  font-bold text-white bg-[#0A66C2]">
             in
           </h1>
           <div className="relative hidden md:block w-full max-w-xs">

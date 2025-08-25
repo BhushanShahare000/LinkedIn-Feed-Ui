@@ -16,7 +16,7 @@ const initialPosts = [
   {
     id: 2,
     user: {
-      name: "Bhushan Shahare",
+      name: "Vidhnashu borade",
       avatar: "https://i.pravatar.cc/100?img=5",
     },
     content: "Excited to share my new React project 🚀",
