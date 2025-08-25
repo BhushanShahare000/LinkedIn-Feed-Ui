@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Feed from "./components/Feed";
-import RightPanel from "./components/RightPanel";
+import RightPanel from "./components/Rightpanel";
 
 export default function App() {
   return (
